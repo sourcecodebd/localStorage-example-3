@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon -->
+    <link rel="icon" sizes="192x192" type=image/x-icon" href="media/icons/javascript.ico">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5485bfc962.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Storage</title>
+    <style>
+        .header-span {
+            color: rgb(221, 34, 34);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Let's Explore <span class="header-span">Session Storage</span> and <span class="header-span">Local
+            Storage</span>
+    </h1>
+    <div id="message">
+
+    </div>
+    <input type=" text" id="storage-id" placeholder="Enter Storage Id">
+    <input type="text" id="storage-value" placeholder="Enter Storage Value">
+    <button onclick="setLocal()" class="btn">Add to local storage</button>
+    <button onclick="clearLocal()" class="btn">Clear local storage</button>
+    <script src="storage.js"></script>
+</body>
+
+</html>
